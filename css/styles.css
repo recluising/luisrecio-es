@@ -1,0 +1,108 @@
+/*Custom CSS - LUIS RECIO*/
+
+body{
+	text-align:center;
+	background:url(../images/light-tile.gif);
+}
+
+#container{
+	margin-top:20px;
+	width: 950px;
+	margin:0 auto;
+	text-align:left;
+	height:100%;
+	background:#FFFFFF;
+}
+
+#pre-header,#post-header{
+	height:20px;
+}
+
+#post-header{
+	border:#000000 solid;
+	border-width:0px 1px 0px 1px;
+}
+
+#header {
+	border:#000000 solid;
+	border-width:1px 1px 0px 1px;
+	height:100px;
+	display: none;
+}
+
+#centralrow{
+	border:#000000 solid;
+	border-width:0px 1px 0px 1px;
+	height:560px;
+}
+
+#menu,#social,#bio,#links,#contact{
+	height: inherit;
+	background:#FFFFFF;
+}
+
+#link{
+	border-bottom: solid 1px #565656;
+	height: 55px;
+}
+
+#image{
+	text-align:right;
+}
+
+#bio{
+	text-align:justify;
+	font-family: 'Dosis';
+	font-size:15px;
+}
+
+.title{
+	font-family: "Nothing You Could Do";
+	font-size:30px;
+	font-weight:bold;
+}
+
+#bio-text{
+	box-shadow: 5px 5px 3px #cccccc;
+	background:#333333;
+	color:#ffffff;
+}
+
+#bio a{
+	color:#ffffff;
+}
+
+.sides{
+	height: inherit;
+	margin-top:100px;
+}
+
+#menu{
+	text-align: center;
+	font-family:'Orbitron';
+	font-size:18px;
+}
+
+#menu a{
+	text-decoration:none;
+	color:#000000;
+}
+
+#menu a:hover{
+	color:#205791;
+}
+
+#social,#links,#contact,#bio{
+	display: none;	
+}
+
+#footer{
+	height:20px;
+	border:#000000 solid;
+	border-width:1px 1px 1px 1px;
+	background:#000000;
+	text-align: center;
+	color: #FFFFFF;
+	font-weight:bold;
+}
+
